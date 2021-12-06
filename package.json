@@ -1,0 +1,26 @@
+{
+  "name": "tele-bot",
+  "version": "1.0.0",
+  "description": "Bot for Squid Moon",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "dev": "nodemon index.js",
+    "n": "nodemon index.js"
+  },
+  "author": "Logesh08",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bignumber.js": "^9.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase": "^9.4.0",
+    "node-schedule": "^2.0.0",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
